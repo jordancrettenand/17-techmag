@@ -2,6 +2,7 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  text-align: center;
 }
 
 img {
@@ -11,16 +12,32 @@ img {
 
 header {
   background: lightcoral;
+  padding: 20px;
 }
 
 .section-light {
   background: lightblue;
+  padding: 20px;
 }
 
 .section-dark {
-  background: lightgray;
+  background: lightgreen;
+  padding: 20px;
 }
+
+.box-blog {
+  background: pink;
+  border-radius: 30px;
+  padding: 20px;
+}
+
 
 footer {
   background: lightcoral;
+  padding: 20px;
+}
+
+a {
+  border-radius: 10px;
+  background: lightsalmon;
 }
