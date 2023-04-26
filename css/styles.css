@@ -2,6 +2,7 @@ body {
   max-width: 380px;
   margin: auto;
   background: #ddd;
+  font-family: 'Space Grotesk', sans-serif;
   text-align: center;
   border-top: red solid 5px;
 }
@@ -12,13 +13,14 @@ img {
 }
 
 header {
-  background: blue;
+  background: url(../img/bg-header.jpg);
+  background-size: cover;
   padding: 20px;
   color: white;
 }
 
 .section-light {
-  background: lightblue;
+  background: #E3F4FF;
   padding: 20px;
 }
 
@@ -29,7 +31,7 @@ header {
 }
 
 .box-blog {
-  background: lightblue;
+  background: #E3F4FF;
   border-radius: 30px;
   padding: 20px;
 }
@@ -38,6 +40,7 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 50px 0 50px 0;
 }
 
 footer {
@@ -52,4 +55,5 @@ a {
   color: white;
   padding: 10px 20px;
   margin: 5px;
+  text-decoration: none;
 }
