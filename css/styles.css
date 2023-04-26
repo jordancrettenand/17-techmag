@@ -4,7 +4,7 @@ body {
   background: #ddd;
   font-family: 'Space Grotesk', sans-serif;
   text-align: center;
-  border-top: red solid 5px;
+  border-top: #060E17 solid 5px;
 }
 
 img {
@@ -25,8 +25,8 @@ header {
 }
 
 .section-dark {
-  background: black;
-  color: white;
+  background: #060E17;
+  color: #060E17;
   padding: 20px;
 }
 
@@ -44,16 +44,26 @@ header {
 }
 
 footer {
-  background: black;
-  color: white;
+  background: #060E17;
+  color: gray;
   padding: 20px;
 }
 
 a {
   border-radius: 10px;
-  background: black;
+  background: #060E17;
   color: white;
   padding: 10px 20px;
   margin: 5px;
   text-decoration: none;
+}
+
+img {
+  max-width: 100px;
+  margin: auto;
+}
+
+.title {
+  background: #060e17eb;
+  padding: 20px;
 }
