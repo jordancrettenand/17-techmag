@@ -47,6 +47,7 @@ footer {
   background: #060E17;
   color: gray;
   padding: 20px;
+  font-size: 12px;
 }
 
 a {
@@ -56,6 +57,7 @@ a {
   padding: 10px 20px;
   margin: 5px;
   text-decoration: none;
+  font-size: 18px;
 }
 
 img {
@@ -66,4 +68,21 @@ img {
 .title {
   background: #060e17eb;
   padding: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.slogan {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 23px;
 }
