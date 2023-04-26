@@ -8,3 +8,19 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background: lightcoral;
+}
+
+.section-light {
+  background: lightblue;
+}
+
+.section-dark {
+  background: lightgray;
+}
+
+footer {
+  background: lightcoral;
+}
