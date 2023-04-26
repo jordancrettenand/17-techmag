@@ -11,8 +11,9 @@ img {
 }
 
 header {
-  background: lightcoral;
+  background: blue;
   padding: 20px;
+  color: white;
 }
 
 .section-light {
@@ -21,23 +22,28 @@ header {
 }
 
 .section-dark {
-  background: lightgreen;
+  background: black;
+  color: white;
   padding: 20px;
 }
 
 .box-blog {
-  background: pink;
+  background: lightblue;
   border-radius: 30px;
   padding: 20px;
 }
 
 
 footer {
-  background: lightcoral;
+  background: black;
+  color: white;
   padding: 20px;
 }
 
 a {
   border-radius: 10px;
-  background: lightsalmon;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
 }
