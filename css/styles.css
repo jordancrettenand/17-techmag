@@ -1,8 +1,9 @@
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
   background: #ddd;
   text-align: center;
+  border-top: red solid 5px;
 }
 
 img {
@@ -33,6 +34,11 @@ header {
   padding: 20px;
 }
 
+.container-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
 footer {
   background: black;
@@ -44,6 +50,6 @@ a {
   border-radius: 10px;
   background: black;
   color: white;
-  display: flex;
-  justify-content: flex-start;
+  padding: 10px 20px;
+  margin: 5px;
 }
